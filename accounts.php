@@ -1,5 +1,5 @@
 <?php $conn= new mysqli('localhost', 'root', '', 'tsts_db') or die (mysqli_error($mysqli));
-
+  // add comment
 
 ?>
 <style>
