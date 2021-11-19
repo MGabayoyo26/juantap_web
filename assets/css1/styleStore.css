@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-ticket {  
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    left: 100px;
+    top: 135px;
+    border: 3px solid #1EAE98;
+    box-sizing: border-box;
+    transform: rotate(0.17deg);
+}
+
+.imageSize {
+    position: absolute;
+    box-sizing: border-box;
+    width: 190px;
+    height: 145px;
+    left: 76px;
+    top: 20px;
+}
+
+.storeName {
+    position: absolute;
+    box-sizing: border-box;
+    width: 429px;
+    height: 36px;
+    left: 290px;
+    top: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.storeEmail {
+    position: absolute;
+    box-sizing: border-box;
+    width: 429px;
+    height: 36px;
+    left: 290px;
+    top: 100px;
+    font-size: 26px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.ticketNumber {
+    position: absolute;
+    box-sizing: border-box;
+    width: 429px;
+    height: 36px;
+    left: 500px;
+    top: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.storeCash {
+    position: absolute;
+    box-sizing: border-box;
+    width: 429px;
+    height: 36px;
+    left: 80%;
+    top: 70px;
+    font-size: 100px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+table {
+    position: absolute;
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 58%;
+    left: 155px;
+    top: 330px;
+    box-sizing: border-box;
+}
+  
+.td-1 {
+    text-align: right;
+    padding: 5px;
+    color: #000000;
+}
+.td-2 {
+    text-align: left;
+    padding: 5px;
+    color: #000000;
+}
+  
+tr {
+    background-color: #f2f2f2;
+}
+
+.tapcard{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+th {
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.boundcard {
+    position: absolute;
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    left: 980px;
+    top: 390px;
+    box-sizing: border-box;
+}
+
+.bound{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 40%;
+}
+
+.discountType select{
+    width: 390px;
+}
+
+.number{
+    width: 400px;
+}
+
+.bindButton{
+    background-color: #04AA6D;
+    margin:auto;
+    display:block;
+}
+
+.btnColor{
+    background-color: #04AA6D;
+    border: none;
+}
+
+.sbar{
+    background-color: white;
+    text-align: right;
+}
+
+.btnStore {
+    text-align: right;
+}
+
+.btntap{
+    text-align: center;
+}
+
+.search {
+    width: 95.2%;
+}

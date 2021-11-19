@@ -1,0 +1,69 @@
+
+
+hr.style1 {
+	border-top: 3px solid rgb(0, 0, 0);
+}
+
+.text-dark {
+    background-color: #1EAE98;
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+
+@media only screen and (max-width:800px) {
+    #no-more-tables tbody,
+    #no-more-tables tr,
+    #no-more-tables td {
+        display: block;
+    }
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #no-more-tables td {
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+    #no-more-tables td::before {
+        content: attr(data-title);
+        position: absolute;
+        left: 6px;
+        font-weight: bold;
+    }
+    #no-more-tables tr {
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+/*==== PERSONAL INFORMATION CSS ====*/
+.ic-cmp-int{
+	position: static;
+    display: table;
+    border-collapse: separate;
+    width: 350px;
+}
+.form-ic-cmp{
+	padding: 0px 15px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 0;
+}
+.form-ic-cmp{
+	display: table-cell;
+	width: 5%;
+}
+.form-ic-cmp i{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+    position: relative;
+    top: 7px;
+    left: 0px;
+}
